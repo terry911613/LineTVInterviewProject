@@ -3,29 +3,62 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		441B6A3526427D80009555F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A3426427D80009555F3 /* AppDelegate.swift */; };
 		441B6A3726427D80009555F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A3626427D80009555F3 /* SceneDelegate.swift */; };
-		441B6A3926427D80009555F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A3826427D80009555F3 /* ViewController.swift */; };
+		441B6A3926427D80009555F3 /* DramaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A3826427D80009555F3 /* DramaListViewController.swift */; };
 		441B6A3C26427D80009555F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441B6A3A26427D80009555F3 /* Main.storyboard */; };
 		441B6A3F26427D80009555F3 /* LineTVInterviewProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A3D26427D80009555F3 /* LineTVInterviewProject.xcdatamodeld */; };
 		441B6A4126427D81009555F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441B6A4026427D81009555F3 /* Assets.xcassets */; };
 		441B6A4426427D81009555F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441B6A4226427D81009555F3 /* LaunchScreen.storyboard */; };
+		441B6A4F26427EA6009555F3 /* DramaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A4D26427EA6009555F3 /* DramaTableViewCell.swift */; };
+		441B6A5026427EA6009555F3 /* DramaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 441B6A4E26427EA6009555F3 /* DramaTableViewCell.xib */; };
+		441B6A5526428046009555F3 /* DramaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A5426428046009555F3 /* DramaViewModel.swift */; };
+		441B6A592642808F009555F3 /* Drama.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A582642808F009555F3 /* Drama.swift */; };
+		441B6A5E26428546009555F3 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A5D26428546009555F3 /* UIImageView+Extension.swift */; };
+		441B6A6226428DA2009555F3 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A6126428DA2009555F3 /* DateFormatter+Extension.swift */; };
+		441B6A652642931B009555F3 /* DramaInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A642642931B009555F3 /* DramaInfoViewController.swift */; };
+		441B6A692642ED38009555F3 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B6A682642ED38009555F3 /* UIViewController+Extension.swift */; };
+		448110BB2643BB42001202C7 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448110BA2643BB42001202C7 /* NetworkRouter.swift */; };
+		448110BF2643C460001202C7 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448110BE2643C460001202C7 /* AppError.swift */; };
+		448110C32643C7D5001202C7 /* CoreDataDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448110C22643C7D5001202C7 /* CoreDataDB.swift */; };
+		448110C72643CA51001202C7 /* CoreDBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448110C62643CA51001202C7 /* CoreDBError.swift */; };
+		448110CD2643CE3D001202C7 /* Drama_CoreDB+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448110CC2643CE3D001202C7 /* Drama_CoreDB+Extension.swift */; };
+		448110D92643DA20001202C7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448110D82643DA20001202C7 /* NetworkManager.swift */; };
+		448110DD26443B34001202C7 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448110DB26443B34001202C7 /* HistoryTableViewCell.swift */; };
+		448110DE26443B34001202C7 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448110DC26443B34001202C7 /* HistoryTableViewCell.xib */; };
+		44873AC72644FA6200DF26D2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 44873AC62644FA6200DF26D2 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		441B6A3126427D80009555F3 /* LineTVInterviewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineTVInterviewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441B6A3426427D80009555F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		441B6A3626427D80009555F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		441B6A3826427D80009555F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		441B6A3826427D80009555F3 /* DramaListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaListViewController.swift; sourceTree = "<group>"; };
 		441B6A3B26427D80009555F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		441B6A3E26427D80009555F3 /* LineTVInterviewProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LineTVInterviewProject.xcdatamodel; sourceTree = "<group>"; };
 		441B6A4026427D81009555F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441B6A4326427D81009555F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		441B6A4526427D81009555F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441B6A4D26427EA6009555F3 /* DramaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaTableViewCell.swift; sourceTree = "<group>"; };
+		441B6A4E26427EA6009555F3 /* DramaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DramaTableViewCell.xib; sourceTree = "<group>"; };
+		441B6A5426428046009555F3 /* DramaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaViewModel.swift; sourceTree = "<group>"; };
+		441B6A582642808F009555F3 /* Drama.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drama.swift; sourceTree = "<group>"; };
+		441B6A5D26428546009555F3 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		441B6A6126428DA2009555F3 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		441B6A642642931B009555F3 /* DramaInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaInfoViewController.swift; sourceTree = "<group>"; };
+		441B6A682642ED38009555F3 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		448110BA2643BB42001202C7 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		448110BE2643C460001202C7 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		448110C22643C7D5001202C7 /* CoreDataDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDB.swift; sourceTree = "<group>"; };
+		448110C62643CA51001202C7 /* CoreDBError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDBError.swift; sourceTree = "<group>"; };
+		448110CC2643CE3D001202C7 /* Drama_CoreDB+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Drama_CoreDB+Extension.swift"; sourceTree = "<group>"; };
+		448110D82643DA20001202C7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		448110DB26443B34001202C7 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		448110DC26443B34001202C7 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44873AC72644FA6200DF26D2 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,14 +94,102 @@
 			children = (
 				441B6A3426427D80009555F3 /* AppDelegate.swift */,
 				441B6A3626427D80009555F3 /* SceneDelegate.swift */,
-				441B6A3826427D80009555F3 /* ViewController.swift */,
 				441B6A3A26427D80009555F3 /* Main.storyboard */,
+				44873AC92645147D00DF26D2 /* UIViewController */,
+				441B6A572642807F009555F3 /* Model */,
+				441B6A5326428034009555F3 /* ViewModel */,
+				441B6A4C26427E81009555F3 /* TableViewCell */,
+				448110BD2643C454001202C7 /* Error */,
+				448110B92643BA90001202C7 /* Network */,
+				441B6A5C26428534009555F3 /* Extension */,
 				441B6A4026427D81009555F3 /* Assets.xcassets */,
 				441B6A4226427D81009555F3 /* LaunchScreen.storyboard */,
 				441B6A4526427D81009555F3 /* Info.plist */,
-				441B6A3D26427D80009555F3 /* LineTVInterviewProject.xcdatamodeld */,
+				448110C12643C7C1001202C7 /* CoreData */,
 			);
 			path = LineTVInterviewProject;
+			sourceTree = "<group>";
+		};
+		441B6A4C26427E81009555F3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				441B6A4D26427EA6009555F3 /* DramaTableViewCell.swift */,
+				441B6A4E26427EA6009555F3 /* DramaTableViewCell.xib */,
+				448110DB26443B34001202C7 /* HistoryTableViewCell.swift */,
+				448110DC26443B34001202C7 /* HistoryTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		441B6A5326428034009555F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				441B6A5426428046009555F3 /* DramaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		441B6A572642807F009555F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				441B6A582642808F009555F3 /* Drama.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		441B6A5C26428534009555F3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				441B6A5D26428546009555F3 /* UIImageView+Extension.swift */,
+				441B6A6126428DA2009555F3 /* DateFormatter+Extension.swift */,
+				441B6A682642ED38009555F3 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		448110B92643BA90001202C7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				448110BA2643BB42001202C7 /* NetworkRouter.swift */,
+				448110D82643DA20001202C7 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		448110BD2643C454001202C7 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				448110BE2643C460001202C7 /* AppError.swift */,
+				448110C62643CA51001202C7 /* CoreDBError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		448110C12643C7C1001202C7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				448110CB2643CE28001202C7 /* Extension */,
+				441B6A3D26427D80009555F3 /* LineTVInterviewProject.xcdatamodeld */,
+				448110C22643C7D5001202C7 /* CoreDataDB.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		448110CB2643CE28001202C7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				448110CC2643CE3D001202C7 /* Drama_CoreDB+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		44873AC92645147D00DF26D2 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				441B6A3826427D80009555F3 /* DramaListViewController.swift */,
+				441B6A642642931B009555F3 /* DramaInfoViewController.swift */,
+			);
+			path = UIViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +208,9 @@
 			dependencies = (
 			);
 			name = LineTVInterviewProject;
+			packageProductDependencies = (
+				44873AC62644FA6200DF26D2 /* Alamofire */,
+			);
 			productName = LineTVInterviewProject;
 			productReference = 441B6A3126427D80009555F3 /* LineTVInterviewProject.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +238,9 @@
 				Base,
 			);
 			mainGroup = 441B6A2826427D80009555F3;
+			packageReferences = (
+				44873AC52644FA6200DF26D2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 441B6A3226427D80009555F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,8 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				441B6A4426427D81009555F3 /* LaunchScreen.storyboard in Resources */,
+				448110DE26443B34001202C7 /* HistoryTableViewCell.xib in Resources */,
 				441B6A4126427D81009555F3 /* Assets.xcassets in Resources */,
 				441B6A3C26427D80009555F3 /* Main.storyboard in Resources */,
+				441B6A5026427EA6009555F3 /* DramaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +270,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441B6A3926427D80009555F3 /* ViewController.swift in Sources */,
+				448110DD26443B34001202C7 /* HistoryTableViewCell.swift in Sources */,
+				441B6A652642931B009555F3 /* DramaInfoViewController.swift in Sources */,
+				441B6A692642ED38009555F3 /* UIViewController+Extension.swift in Sources */,
+				448110CD2643CE3D001202C7 /* Drama_CoreDB+Extension.swift in Sources */,
+				448110C32643C7D5001202C7 /* CoreDataDB.swift in Sources */,
+				441B6A3926427D80009555F3 /* DramaListViewController.swift in Sources */,
 				441B6A3F26427D80009555F3 /* LineTVInterviewProject.xcdatamodeld in Sources */,
+				448110C72643CA51001202C7 /* CoreDBError.swift in Sources */,
+				448110BF2643C460001202C7 /* AppError.swift in Sources */,
+				441B6A5E26428546009555F3 /* UIImageView+Extension.swift in Sources */,
+				448110BB2643BB42001202C7 /* NetworkRouter.swift in Sources */,
+				448110D92643DA20001202C7 /* NetworkManager.swift in Sources */,
+				441B6A4F26427EA6009555F3 /* DramaTableViewCell.swift in Sources */,
 				441B6A3526427D80009555F3 /* AppDelegate.swift in Sources */,
+				441B6A6226428DA2009555F3 /* DateFormatter+Extension.swift in Sources */,
+				441B6A5526428046009555F3 /* DramaViewModel.swift in Sources */,
 				441B6A3726427D80009555F3 /* SceneDelegate.swift in Sources */,
+				441B6A592642808F009555F3 /* Drama.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XVB2JZ6L9X;
 				INFOPLIST_FILE = LineTVInterviewProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XVB2JZ6L9X;
 				INFOPLIST_FILE = LineTVInterviewProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,6 +491,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44873AC52644FA6200DF26D2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44873AC62644FA6200DF26D2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44873AC52644FA6200DF26D2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		441B6A3D26427D80009555F3 /* LineTVInterviewProject.xcdatamodeld */ = {
