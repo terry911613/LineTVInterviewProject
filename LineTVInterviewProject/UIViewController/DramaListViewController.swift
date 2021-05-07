@@ -50,13 +50,14 @@ class DramaListViewController: UIViewController {
     
     private func configureUI() {
         navigationItem.title = "戲劇列表"
-        setRefresh(isRefresh: true)
     }
     
     private func setRefresh(isRefresh: Bool) {
         if isRefresh {
-            refreshControl.addTarget(self, action: #selector(refreshDevice), for: .valueChanged)
-            tableView.addSubview(refreshControl)
+            if !tableView.subviews.contains(refreshControl) {
+                refreshControl.addTarget(self, action: #selector(refreshDevice), for: .valueChanged)
+                tableView.addSubview(refreshControl)
+            }
         }
         else {
             refreshControl.removeFromSuperview()
@@ -104,6 +105,7 @@ class DramaListViewController: UIViewController {
                 self?.tableView.reloadData()
                 activityIndicatorView.stopAnimating()
                 self?.tableView.backgroundView = nil
+                self?.setRefresh(isRefresh: true)
                 self?.showSearchBar(true)
             case .failure(let error):
                 print("error = \(error.localizedDescription)")
