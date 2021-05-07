@@ -80,6 +80,7 @@ class DramaListViewController: UIViewController {
         
         searchBar.text = dramaViewModel.searchHistory
         searchBar.setShowsCancelButton(!dramaViewModel.searchHistory.isEmpty, animated: true)
+        cancelButton?.isEnabled = !dramaViewModel.searchHistory.isEmpty
         showSearchBar(false)
     }
     
